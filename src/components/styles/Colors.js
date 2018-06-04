@@ -1,0 +1,9 @@
+export const primaryColor = '#31a4db';
+export const sliderColor = primaryColor;
+export const iconColor = primaryColor;
+export const whiteText = '#fff';
+export const blackText = '#000';
+export const sliderBgColor = '#303030';
+export const primaryBgColor = '#000';
+export const ChapterPickerTextColor = whiteText;
+export const AudiobookProgressBgColor = '#505050';

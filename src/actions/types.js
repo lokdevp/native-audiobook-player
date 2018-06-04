@@ -1,0 +1,14 @@
+// PLAYER ACTIONS
+export const PLAY = 'PLAY';
+export const PAUSE = 'PAUSE';
+export const SKIP = 'SKIP';
+export const REWIND = 'REWIND';
+export const GOTO = 'GOTO';
+export const GET_CURRENT_TIME = 'GET_CURRENT_TIME';
+export const CHANGE_SPEED = 'CHANGE_SPEED';
+
+// AUDIOBOOKS ACTIONS
+export const SELECT_AUDIOBOOK = 'SELECT_AUDIOBOOK';
+export const POPULATE_AUDIOBOOKS = 'POPULATE_AUDIOBOOKS';
+export const RESTORE_AUDIOBOOKS = 'RESTORE_AUDIOBOOKS';
+export const ASYNC_REQUEST = 'ASYNC_REQUEST';

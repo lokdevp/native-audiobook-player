@@ -1,0 +1,47 @@
+{
+  "name": "nativeaudiobookplayer",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "immutable": "4.0.0-rc.9",
+    "lodash": "^4.17.5",
+    "prop-types": "^15.6.0",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-directory-picker": "git+https://github.com/lokdevp/react-native-directory-picker.git",
+    "react-native-fs": "^2.9.6",
+    "react-native-indicators": "^0.13.0",
+    "react-native-media-meta": "git+https://github.com/lokdevp/react-native-media-meta.git",
+    "react-native-slider": "^0.11.0",
+    "react-native-sound": "^0.10.4",
+    "react-native-vector-icons": "^4.4.3",
+    "react-navigation": "^2.0.1",
+    "react-navigation-redux-helpers": "^1.0.6",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.9.1",
+    "redux-persist-transform-immutable": "^5.0.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
