@@ -16,6 +16,30 @@ export default class About extends React.Component {
           </Text>
         </View>
         <Text>This app is still in development</Text>
+        <Text style={{ marginTop: 50, lineHeight: 19 }}>
+          The app-icon was made by modifying{' '}
+          <Text
+            style={styles.link}
+            onPress={() => Linking.openURL('https://www.flaticon.com/authors/roundicons')}
+          >
+            roundicons
+          </Text>{' '}
+          and{' '}
+          <Text style={styles.link} onPress={() => Linking.openURL('https://www.freepik.com/')}>
+            freepik
+          </Text>{' '}
+          from{' '}
+          <Text style={styles.link} onPress={() => Linking.openURL('https://www.flaticon.com/')}>
+            flaticon
+          </Text>
+          , rest of the icons are{' '}
+          <Text
+            style={styles.link}
+            onPress={() => Linking.openURL('https://ionicframework.com/docs/ionicons/')}
+          >
+            Ionicons
+          </Text>.
+        </Text>
       </View>
     );
   }
@@ -26,11 +50,14 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    paddingTop: '10%',
+    padding: '8%',
   },
   githubLink: {
     borderBottomColor: primaryColor,
     borderBottomWidth: 2,
     marginBottom: 10,
+  },
+  link: {
+    color: primaryColor,
   },
 });

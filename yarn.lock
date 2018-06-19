@@ -4519,7 +4519,7 @@ react-lifecycles-compat@^3, react-lifecycles-compat@^3.0.4:
 
 "react-native-directory-picker@git+https://github.com/lokdevp/react-native-directory-picker.git":
   version "0.0.1"
-  resolved "git+https://github.com/lokdevp/react-native-directory-picker.git#01385213e8e45b042eb55903bc97b9a3afa61827"
+  resolved "git+https://github.com/lokdevp/react-native-directory-picker.git#63307e646f72444ab83b619e579c55ee38cd162a"
 
 react-native-dismiss-keyboard@1.0.0:
   version "1.0.0"
